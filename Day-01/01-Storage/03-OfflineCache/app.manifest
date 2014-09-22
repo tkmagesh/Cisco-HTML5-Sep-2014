@@ -1,0 +1,12 @@
+CACHE MANIFEST
+#VER 3.0
+CACHE:
+taskManager.js
+taskStorage.js
+taskManager.css
+
+NETWORK:
+*
+
+FALLBACK:
+taskManager-online.css  taskManager-offline.css
