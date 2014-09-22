@@ -1,0 +1,26 @@
+window.localStorage
+    - collection key/value pairs
+    - both the key and the value should be "string"
+    
+    - setItem(key,value)
+    - getItem(key) -> value
+    - removeItem(key)
+    - clear()
+    - length
+    - key(index) -> key
+    
+Offline 
+
+manifest file
+CACHE MANIFEST
+#COMMENTS
+CACHE:
+#List all the resources that need to cached
+
+NETWORK:
+#List all the resources that should not be cached
+
+FALLBACK:
+#List the offline alternatives for online resources
+
+
