@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS 3.0 Demo</title>
+    <style>
+    .content{
+        margin : 100px;
+        height : 300px;
+        width : 300px;
+        border : 5px solid black;
+        font-size: 28pt;
+        text-align: center;
+        line-height: 300px;
+        
+       /* background : -webkit-linear-gradient(top left, yellow 0%, red 100%);
+        background : -moz-linear-gradient(top left, yellow 0%, red 100%);
+        background : -ms-linear-gradient(top left, yellow 0%, red 100%);
+        background : -o-linear-gradient(top left, yellow 0%, red 100%);
+        background : linear-gradient(top left, yellow 0%, red 100%);*/
+        
+        background: -webkit-linear-gradient(top, orange 0%, orange 33%, white 33%, white 66%, green 66%, green 100%);
+        
+        border-radius: 30px;
+        box-shadow: 0px 0px 0px 5px gray,0px 0px 0px 10px yellow,0px 0px 0px 15px blue;
+        text-shadow: 3px 3px 0px gray;
+        -webkit-transition : all 0.5s ease-out ;
+    }
+    
+        .content:hover{
+            -webkit-transform : rotate(45deg) scale(1.75,1.75);
+        }
+    </style>
+</head>
+<body>
+    <div class="content">CISCO</div>
+</body>
+</html>
