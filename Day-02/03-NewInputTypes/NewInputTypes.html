@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Input Types</title>
+    <style>
+    input{
+        display : block;
+    }
+    </style>
+    <script>
+    function isInputTypeSupported(inputType){
+      var inputElement = document.createElement("input");
+      inputElement.setAttribute("type",inputType);
+      return inputElement.type === inputType;
+    }
+    </script>
+</head>
+<body>
+   <form action="">
+    <input type="text" name="" id="" required>
+    <input type="number" name="" id="" min="10" max="50">
+    <input type="range" name="" id="" min="0" max="100">
+    <input type="tel">
+    <input type="color">
+    <input type="email" name="" id="">
+    <input type="date" name="" id="">
+    <input type="time" name="" id="">
+    <input type="url" name="" id="">
+    <input type="search" name="" id="">
+    <input type="abc">
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

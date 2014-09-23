@@ -1,0 +1,15 @@
+{
+  "name": "CiscoSocketServer",
+  "version": "0.1.0",
+  "description": "A sample socket server for demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html5",
+    "websockets"
+  ],
+  "author": "Magesh K",
+  "license": "BSD-2-Clause"
+}
